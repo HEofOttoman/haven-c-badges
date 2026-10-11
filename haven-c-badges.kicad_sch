@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2Kicad:LED0805-R-RD"
 			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1348,7 +1348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2Kicad:R0603"
 			(at 123.19 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -1428,7 +1428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2Kicad:C0603"
 			(at 119.38 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -1508,7 +1508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
+		(property "Footprint" "EasyEDA2Kicad:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
 			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1639,7 +1639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nfc_antenna:25X48MM_NFC_ANTENNA"
+		(property "Footprint" "EasyEDA2Kicad:25X48MM_NFC_ANTENNA manualimport"
 			(at 115.57 66.04 0)
 			(hide yes)
 			(show_name no)
