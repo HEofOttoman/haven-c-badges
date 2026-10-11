@@ -679,7 +679,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:NT3H2111W0FHKH"
+		(symbol "NFC_components:NT3H2111W0FHKH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -705,7 +705,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
+			(property "Footprint" "CyberCard:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -716,8 +716,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C710403.pdf"
-				(at 0 -13.97 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -738,41 +738,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "NXP(恩智浦)"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "NT3H2111W0FHKH"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "LCSC Part" "C710403"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RF Chips"
-				(at 0 0 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -784,7 +751,7 @@
 			)
 			(symbol "NT3H2111W0FHKH_0_1"
 				(rectangle
-					(start -7.62 6.35)
+					(start -7.62 7.62)
 					(end 7.62 -6.35)
 					(stroke
 						(width 0)
@@ -795,7 +762,7 @@
 					)
 				)
 				(circle
-					(center -6.35 5.08)
+					(center -6.35 6.35)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -1005,6 +972,18 @@
 		(color 0 0 0 0)
 		(uuid "c305572b-49d4-4b3b-8cce-acba84cab700")
 	)
+	(no_connect
+		(at 105.41 90.17)
+		(uuid "27bf14ba-42d8-4511-acf7-7f712487fea0")
+	)
+	(no_connect
+		(at 105.41 92.71)
+		(uuid "b81d9bb1-f37d-4706-b1b3-73fffd5cb364")
+	)
+	(no_connect
+		(at 125.73 92.71)
+		(uuid "e8ac5c3e-741e-4344-921a-243626f1953a")
+	)
 	(wire
 		(pts
 			(xy 102.87 87.63) (xy 105.41 87.63)
@@ -1057,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 119.38 66.04)
+			(xy 128.27 66.04) (xy 119.38 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1077,33 +1056,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 85.09) (xy 105.41 85.09)
+			(xy 125.73 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eec1fce-3c45-4fdc-9f42-3cd17a8d67ee")
+		(uuid "77a0e48e-2981-4a3e-b09d-c7c223afd41c")
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 101.6 66.04)
+			(xy 111.76 66.04) (xy 102.87 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79dd5ff0-5bd4-45f1-9752-80329bd4d5f4")
-	)
-	(wire
-		(pts
-			(xy 125.73 85.09) (xy 129.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a816a33-73b7-4796-aa6d-152af05a07ac")
 	)
 	(wire
 		(pts
@@ -1127,6 +1096,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a720b3-e243-4c62-b300-1ea01501a7b5")
+	)
+	(wire
+		(pts
 			(xy 100.33 87.63) (xy 100.33 123.19)
 		)
 		(stroke
@@ -1147,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 129.54 66.04)
+			(xy 128.27 85.09) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1157,23 +1136,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 66.04) (xy 101.6 85.09)
+			(xy 102.87 66.04) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b4c561f-8c86-4818-96dd-a52e073056ef")
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae50172e-3e50-4888-9da0-4804790316e0")
 	)
 	(wire
 		(pts
@@ -1197,6 +1166,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2711a97-c385-4916-b1e3-418b65bba74a")
+	)
+	(wire
+		(pts
 			(xy 100.33 87.63) (xy 102.87 87.63)
 		)
 		(stroke
@@ -1214,16 +1193,6 @@
 			(type default)
 		)
 		(uuid "fb9aaa31-09ae-4641-8067-0a39c665ce54")
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 128.27 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd32f951-d001-4f88-992d-75a311d70705")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1397,6 +1366,115 @@
 		)
 	)
 	(symbol
+		(lib_id "NFC_components:NT3H2111W0FHKH")
+		(at 115.57 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28bf637b-872f-4a37-801c-24000686765e")
+		(property "Reference" "U1"
+			(at 115.57 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NT3H2111W0FHKH"
+			(at 115.57 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NFC Components:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C710403"
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6c31dac-1cf8-4012-ac7a-7fb672f39f48")
+		)
+		(pin "6"
+			(uuid "b4eb20b1-66a6-4bab-bc00-78a000044b24")
+		)
+		(pin "3"
+			(uuid "43572aee-b383-4f53-9f7f-17459d2809f5")
+		)
+		(pin "5"
+			(uuid "4a848ce5-bb0a-4cd0-9ee5-cda735f53cf4")
+		)
+		(pin "8"
+			(uuid "0c72dce5-8d38-46d3-98bd-9cda7327f787")
+		)
+		(pin "7"
+			(uuid "d0dbbcc3-2752-4caf-9249-7ccf20b6522e")
+		)
+		(pin "1"
+			(uuid "40d428cf-0421-49cd-abf4-02ad598c6efe")
+		)
+		(pin "4"
+			(uuid "614fdb5c-3185-4d95-8cea-25a4fe26a993")
+		)
+		(instances
+			(project "haven-c-badges"
+				(path "/a388d1d2-d6b4-4bc6-8c80-be157f48129c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 109.22 90)
 		(unit 1)
@@ -1477,137 +1555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:NT3H2111W0FHKH")
-		(at 115.57 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a7fc659-6c5e-4c5e-8d82-4eefc024ae40")
-		(property "Reference" "U1"
-			(at 115.57 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NT3H2111W0FHKH"
-			(at 115.57 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA2Kicad:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C710403.pdf"
-			(at 115.57 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "NXP(恩智浦)"
-			(at 115.57 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NT3H2111W0FHKH"
-			(at 115.57 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C710403"
-			(at 115.57 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f66eca53-faca-4bd9-9ee6-e9d636de257e")
-		)
-		(pin "8"
-			(uuid "1ea63c8d-5828-458e-a276-2e66d552c03d")
-		)
-		(pin "3"
-			(uuid "323f0d52-cf64-41a1-95f6-e77412c07d2e")
-		)
-		(pin "6"
-			(uuid "61515df0-45b7-45f4-8695-010325e551d7")
-		)
-		(pin "7"
-			(uuid "a3a5ea9f-b9f7-48cf-ae14-afa9f8189536")
-		)
-		(pin "5"
-			(uuid "b9fdfb27-d3f4-43b3-8f4f-1e57621d58b4")
-		)
-		(pin "2"
-			(uuid "74853d1b-261e-4895-bb2a-a49e237c242f")
-		)
-		(pin "4"
-			(uuid "2ebbf292-8148-48ec-b3fa-12da164d71e8")
-		)
-		(instances
-			(project "haven-c-badges"
-				(path "/a388d1d2-d6b4-4bc6-8c80-be157f48129c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 115.57 66.04 270)
 		(unit 1)
@@ -1639,7 +1586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA2Kicad:25X48MM_NFC_ANTENNA manualimport"
+		(property "Footprint" "NFC Components:25X48MM_NFC_ANTENNA"
 			(at 115.57 66.04 0)
 			(hide yes)
 			(show_name no)
