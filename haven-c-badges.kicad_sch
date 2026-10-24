@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a388d1d2-d6b4-4bc6-8c80-be157f48129c")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -921,8 +921,8 @@
 		)
 	)
 	(rectangle
-		(start 85.725 52.705)
-		(end 142.875 135.255)
+		(start 75.565 18.415)
+		(end 132.715 100.965)
 		(stroke
 			(width 0)
 			(type default)
@@ -934,7 +934,7 @@
 	)
 	(text "NFC Stuff"
 		(exclude_from_sim no)
-		(at 115.062 49.784 0)
+		(at 104.902 15.494 0)
 		(effects
 			(font
 				(face "Miracode")
@@ -945,7 +945,7 @@
 	)
 	(text "This is from a guide I hope it isn't wrong"
 		(exclude_from_sim no)
-		(at 113.03 130.81 0)
+		(at 102.87 96.52 0)
 		(effects
 			(font
 				(face "Miracode")
@@ -955,38 +955,38 @@
 		(uuid "def01d68-9942-462c-976b-c94622a72b12")
 	)
 	(junction
-		(at 127 87.63)
+		(at 116.84 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65774b81-a3a3-4ac1-a2f7-29f3ca7c93f2")
 	)
 	(junction
-		(at 128.27 87.63)
+		(at 118.11 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd1a0406-bb96-4167-9845-35f1695b33b5")
 	)
 	(junction
-		(at 102.87 87.63)
+		(at 92.71 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c305572b-49d4-4b3b-8cce-acba84cab700")
 	)
 	(no_connect
-		(at 105.41 90.17)
+		(at 95.25 55.88)
 		(uuid "27bf14ba-42d8-4511-acf7-7f712487fea0")
 	)
 	(no_connect
-		(at 105.41 92.71)
+		(at 95.25 58.42)
 		(uuid "b81d9bb1-f37d-4706-b1b3-73fffd5cb364")
 	)
 	(no_connect
-		(at 125.73 92.71)
+		(at 115.57 58.42)
 		(uuid "e8ac5c3e-741e-4344-921a-243626f1953a")
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 105.41 87.63)
+			(xy 92.71 53.34) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 130.81 123.19)
+			(xy 116.84 88.9) (xy 120.65 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 130.81 87.63)
+			(xy 118.11 53.34) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 127 87.63)
+			(xy 116.84 55.88) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 128.27 109.22)
+			(xy 109.22 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 119.38 66.04)
+			(xy 118.11 31.75) (xy 109.22 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 102.87 109.22)
+			(xy 101.6 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 128.27 85.09)
+			(xy 115.57 50.8) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 102.87 66.04)
+			(xy 101.6 31.75) (xy 92.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 104.14 123.19)
+			(xy 90.17 88.9) (xy 93.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 102.87 87.63)
+			(xy 92.71 74.93) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 87.63) (xy 128.27 87.63)
+			(xy 115.57 53.34) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 100.33 123.19)
+			(xy 90.17 53.34) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 90.17) (xy 127 90.17)
+			(xy 115.57 55.88) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 85.09) (xy 128.27 66.04)
+			(xy 118.11 50.8) (xy 118.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 66.04) (xy 102.87 85.09)
+			(xy 92.71 31.75) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 130.81 87.63)
+			(xy 120.65 88.9) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 128.27 87.63)
+			(xy 118.11 74.93) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 105.41 85.09)
+			(xy 92.71 50.8) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 102.87 87.63)
+			(xy 90.17 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 123.19) (xy 119.38 123.19)
+			(xy 101.6 88.9) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1196,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 123.19 0)
+		(at 97.79 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1207,7 +1207,7 @@
 		(fields_autoplaced yes)
 		(uuid "03f90660-b539-4aaf-9a3b-ccf1bb7f873f")
 		(property "Reference" "D1"
-			(at 106.3625 116.84 0)
+			(at 96.2025 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 106.3625 119.38 0)
+			(at 96.2025 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1227,7 +1227,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA2Kicad:LED0805-R-RD"
-			(at 107.95 123.19 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 123.19 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1249,7 +1249,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 123.19 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +1260,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 123.19 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 123.19 90)
+		(at 113.03 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1298,7 +1298,7 @@
 		(fields_autoplaced yes)
 		(uuid "07711c63-ab0f-4b47-86be-d8079283b7e7")
 		(property "Reference" "R1"
-			(at 123.19 116.84 90)
+			(at 113.03 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Value" "47*"
-			(at 123.19 119.38 90)
+			(at 113.03 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA2Kicad:R0603"
-			(at 123.19 124.968 90)
+			(at 113.03 90.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1329,7 +1329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 123.19 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1340,7 +1340,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 123.19 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1367,7 +1367,7 @@
 	)
 	(symbol
 		(lib_id "NFC_components:NT3H2111W0FHKH")
-		(at 115.57 88.9 0)
+		(at 105.41 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1378,7 +1378,7 @@
 		(fields_autoplaced yes)
 		(uuid "28bf637b-872f-4a37-801c-24000686765e")
 		(property "Reference" "U1"
-			(at 115.57 76.2 0)
+			(at 105.41 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1388,7 +1388,7 @@
 			)
 		)
 		(property "Value" "NT3H2111W0FHKH"
-			(at 115.57 78.74 0)
+			(at 105.41 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1398,7 +1398,7 @@
 			)
 		)
 		(property "Footprint" "NFC Components:XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH"
-			(at 115.57 100.33 0)
+			(at 105.41 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 88.9 0)
+			(at 105.41 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,7 +1420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 88.9 0)
+			(at 105.41 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,7 +1431,7 @@
 			)
 		)
 		(property "LCSC Part" "C710403"
-			(at 115.57 102.87 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1476,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 109.22 90)
+		(at 105.41 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1487,7 +1487,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a1243ea-0292-4dcd-a6bf-5e0525511ef9")
 		(property "Reference" "C1"
-			(at 115.57 101.6 90)
+			(at 105.41 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 115.57 104.14 90)
+			(at 105.41 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1507,7 +1507,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA2Kicad:C0603"
-			(at 119.38 108.2548 0)
+			(at 109.22 73.9648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 109.22 0)
+			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 109.22 0)
+			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1556,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 115.57 66.04 270)
+		(at 105.41 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1567,7 +1567,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc19e431-1ce6-4a5a-8082-77e8a9386aca")
 		(property "Reference" "L1"
-			(at 115.57 60.96 90)
+			(at 105.41 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1577,7 +1577,7 @@
 			)
 		)
 		(property "Value" "25X48MM_NFC_ANTENNA"
-			(at 115.57 63.5 90)
+			(at 105.41 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1587,7 +1587,7 @@
 			)
 		)
 		(property "Footprint" "NFC Components:25X48MM_NFC_ANTENNA"
-			(at 115.57 66.04 0)
+			(at 105.41 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 66.04 0)
+			(at 105.41 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,7 +1609,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 115.57 66.04 0)
+			(at 105.41 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
