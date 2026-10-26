@@ -1,0 +1,117 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
+%TF.CreationDate,2026-10-25T23:43:27+11:00*%
+%TF.ProjectId,haven-c-badges,68617665-6e2d-4632-9d62-61646765732e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.0) date 2026-10-25 23:43:27*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10O,0.808000X0.808000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11RotRect,2.000000X3.000000X45.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12RotRect,2.000000X3.000000X135.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13RoundRect,2.000000X-4.242641X0.000000X0.000000X-4.242641X4.242641X0.000000X0.000000X4.242641X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14RoundRect,2.000000X0.000000X-4.242641X4.242641X0.000000X0.000000X4.242641X-4.242641X0.000000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15RotRect,1.000000X1.500000X135.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16RotRect,1.000000X1.500000X45.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17RoundRect,1.000000X-2.121320X0.000000X0.000000X-2.121320X2.121320X0.000000X0.000000X2.121320X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18RoundRect,1.200000X0.000000X-2.545584X2.545584X0.000000X0.000000X2.545584X-2.545584X0.000000X0*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD19C,0.600000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD20C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,L1,P$2*%
+%TO.N,Net-(U1-LA)*%
+X177864823Y-122550000D03*
+%TD*%
+D11*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,N/C*%
+X65664823Y-63372148D03*
+D12*
+X65664823Y-60372148D03*
+D13*
+X64164823Y-61872148D03*
+D14*
+X64164823Y-61872148D03*
+D12*
+X62664823Y-63372148D03*
+D11*
+X62664823Y-60372148D03*
+%TD*%
+D15*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,N/C*%
+X182214823Y-53150000D03*
+D16*
+X182214823Y-55150000D03*
+X180214823Y-53150000D03*
+D15*
+X180214823Y-55150000D03*
+D17*
+X181214823Y-54150000D03*
+D18*
+X181214823Y-54150000D03*
+%TD*%
+D19*
+%TO.N,Net-(U1-LA)*%
+X177864823Y-127950000D03*
+%TD*%
+%TO.N,Net-(U1-LA)*%
+D20*
+X177864823Y-127950000D02*
+X177864823Y-122550000D01*
+%TD*%
+M02*
