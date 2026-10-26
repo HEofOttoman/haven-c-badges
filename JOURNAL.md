@@ -1,3 +1,11 @@
+---
+title: "Haven Canberra Badges"
+author: "Henry W"
+description: "Badges for Haven Canberra"
+created_at: "2026-10-13"
+---
+
+## October 12: Starting
 I made this
 I did schematic
 I yoinked it from shelley's nfc card
@@ -18,3 +26,5 @@ I decided to manually assign LB & LA to the two ends of the antenna coil with E 
   <img src="https://gitviewsmap.onrender.com/badge/heofottoman.svg" alt="GitViewsMap Visitor Badge" />
 </a>
 
+## 26 October: Finishing up
+Oh god help I can't decide aaaa
