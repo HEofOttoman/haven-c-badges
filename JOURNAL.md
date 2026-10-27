@@ -28,3 +28,8 @@ I decided to manually assign LB & LA to the two ends of the antenna coil with E 
 
 ## 26 October: Finishing up
 Oh god help I can't decide aaaa
+
+## 27 October: I MUST SHIP
+
+8 PM - I am now arranging the massive array of objects into layers. I have to round the corners and make sure it's rounded 30 on the other asw. I re-exported the Board outline from figma & imported it with 0.1225 scale. Exported entire layers designed in figma to kicad at 98.5mm high
+The bac silkscreen i imported as graphics
