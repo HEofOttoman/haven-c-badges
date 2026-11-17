@@ -5,12 +5,14 @@ Badges for the Haven of artist & engineers
 
 ## Schematic
 ![schematics](schematic.png)
-![pcb](image.png)
+![pcb](pcb.png)
+61.3x97mm
 
 ## BOM
 The same as the jams guide.
 |Item|Description|Cost|Link|
 |---|---|---|---|
+|PCB|Self Explanatory|$104/40||
 |KT-0805Y|Yellow SMD LED|||
 |NT3H2111W0FHKH|NFC Chip|||
 |CL10B224KA8NNNC|SMD Ceramic Capacitors|||
