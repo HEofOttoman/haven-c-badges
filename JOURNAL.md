@@ -6,10 +6,10 @@ created_at: "2026-10-13"
 ---
 
 ## October 12: Starting 3 Hours
-![help](<Screenshot 2026-10-22 185522.png>)
+![help](<assets/Screenshot 2026-10-22 185522.png>)
 
-![kicad schem](<Screenshot 2026-10-10 184327.png>) 
-![easyeda](<Screenshot 2026-10-10 183841.png>)
+![kicad schem](<assets/Screenshot 2026-10-10 184327.png>) 
+![easyeda](<assets/Screenshot 2026-10-10 183841.png>)
 
 I made this
 I did schematic, it is enough for back then. 
@@ -27,12 +27,12 @@ Help.
 
 I decided to manually assign LB & LA to the two ends of the antenna coil with E [properties]. That should work? But I still think the design is horrendous. I think that I should prolly use Figma to get a better outline
 
-<a href="https://gitviewsmap.onrender.com/heofottoman">
+<!-- <a href="https://gitviewsmap.onrender.com/heofottoman">
   <img src="https://gitviewsmap.onrender.com/badge/heofottoman.svg" alt="GitViewsMap Visitor Badge" />
-</a>
+</a> -->
 
 ## 26 October: Finishing up 5 Hours
-![conflicting pcb design? I had a worse one before](<Screenshot 2026-10-22 224307.png>)
+![conflicting pcb design? I had a worse one before](<assets/Screenshot 2026-10-22 224307.png>)
 Oh god help I can't decide aaaa. I had trouble thinking about the designs of my pcb.
 I start narrowing down my PCBs design choices because I had a LOT to think about. All in all I hope this will end up good 🤞
 
@@ -68,5 +68,5 @@ I def ended up reducing the sharpness of the 'crest'. And I also added daven
 8 PM - I am now arranging the massive array of objects into layers. I have to round the corners and make sure it's rounded 30 on the other asw. I re-exported the Board outline from figma & imported it with 0.1225 scale. Exported entire layers designed in figma to kicad at 98.5mm high
 The back silkscreen I imported as graphics
 349 something * 0.1225 yielded a result that was pretty close to what I needed
-![thing old vs new](<Screenshot 2026-10-27 230921.png>)
+![thing old vs new](<assets/Screenshot 2026-10-27 230921.png>)
 I had to reimport a bunch of stuff because OF DAVEN 
